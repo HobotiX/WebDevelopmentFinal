@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>HOBOTIX LABS</title>
+		<link rel="stylesheet" type="text/css" href="css/960_12_col.css" />
+		<link rel="stylesheet" type="text/css" href="css/pagestyle.css" />
+		<script src='js/modernizr.js'></script>
+	</head>
+
+	<body>
+		<div class="header">
+			<div class="container_12">
+				<div class="grid_5">
+					<img src="source/logo.png" alt="HobotiX" width="216" height="37" class="logo" />
+					<img src="source/forwardSlash.png" alt="" width="116" height="100" />
+				</div>
+				<div class="nav grid_7">
+					<a href="index.html">HOME</a>
+					/
+					<a href="news.html">NEWS</a>
+					/
+					<a href="projects.html">PROJECTS</a>
+					/
+					<a href="design.html">DESIGN</a>
+					/
+					<a href="random.html">RANDOM</a>
+					/
+					<a href="blog.html">BLOG</a>
+					/
+					<a href="https://github.com/HobotiX/HoboStuff" target="new">GIT</a>
+					/
+					<a href="about.html">ABOUT</a>
+					/
+					<a href="contact.html">CONTACT</a>
+				</div>
+			</div>
+		</div>
+		<div class="wrapper">
+			<div class="sub-story container_12">
+				
+			</div>
+		</div>
+		<div class="article container_12">
+			<div class="grid_12">
+				<h2 class="push_1">Contact Me</h2>
+			</div>
+			<div class="grid_10 push_1">
+				<form method="post" action="cgi_bin/cgiEmailScript.py">
+					<p>
+						The best way to get ahold of me is via email. Please let me know about who you are.<br><br>
+						From:
+						<br>
+						<textarea name="fromBox" rows="1" cols="50" id="fromBoxID" placeholder="YourEmail@CoolPerson.com" autofocus required></textarea>
+						<br>
+						<br>
+						Subject:
+						<br>
+						<textarea name="subjectBox" rows="1" cols="126" id="subjectBoxID" placeholder="What is the nature of your message?" required></textarea>
+						<br>
+						<br>
+						Message Body:
+						<br>
+						<textarea name="messageBox" rows="40" cols="126" id="messageBoxID" placeholder="Let me know whats up." required spellcheck="true" wrap="soft"></textarea>
+						<br>
+						<br>
+						<button type="submit" onClick="sendEmail()" name="submitBtn" >SEND EMAIL</button>
+					</p>
+				</form>
+			</div>
+		</div>
+		<div class="footer clearfix">
+			<div class="container_12">
+				<p class="grid_12">
+					<a href="terms-of-use.html">Legal Information</a> | <a href="newpage.html">Login</a> | <a href="">Copyright &copy: HobotiX Labratories Inc. 2018</a>
+				</p>
+			</div>
+		</div>
+	</body>
+</html>
